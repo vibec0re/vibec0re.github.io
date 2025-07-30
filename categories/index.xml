@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on VIBEC0RE</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on VIBEC0RE</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Jul 2025 01:30:00 +0200</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deepdive</title>
+      <link>/categories/deepdive/</link>
+      <pubDate>Wed, 30 Jul 2025 01:30:00 +0200</pubDate>
+      <guid>/categories/deepdive/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Systems</title>
+      <link>/categories/systems/</link>
+      <pubDate>Wed, 30 Jul 2025 01:30:00 +0200</pubDate>
+      <guid>/categories/systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Practices</title>
+      <link>/categories/practices/</link>
+      <pubDate>Wed, 30 Jul 2025 01:20:00 +0200</pubDate>
+      <guid>/categories/practices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorials</title>
+      <link>/categories/tutorials/</link>
+      <pubDate>Wed, 30 Jul 2025 01:20:00 +0200</pubDate>
+      <guid>/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Philosophy</title>
+      <link>/categories/philosophy/</link>
+      <pubDate>Wed, 30 Jul 2025 01:15:00 +0200</pubDate>
+      <guid>/categories/philosophy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Theory</title>
+      <link>/categories/theory/</link>
+      <pubDate>Wed, 30 Jul 2025 01:15:00 +0200</pubDate>
+      <guid>/categories/theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Movement</title>
+      <link>/categories/movement/</link>
+      <pubDate>Wed, 30 Jul 2025 01:08:02 +0200</pubDate>
+      <guid>/categories/movement/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
