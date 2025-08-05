@@ -6,8 +6,22 @@
     <description>Recent content in Categories on VIBEC0RE</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Jul 2025 20:09:08 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 05 Aug 2025 16:24:10 +0200</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release</title>
+      <link>/categories/release/</link>
+      <pubDate>Tue, 05 Aug 2025 16:24:10 +0200</pubDate>
+      <guid>/categories/release/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>/categories/tools/</link>
+      <pubDate>Tue, 05 Aug 2025 16:24:10 +0200</pubDate>
+      <guid>/categories/tools/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Deepdive</title>
       <link>/categories/deepdive/</link>
