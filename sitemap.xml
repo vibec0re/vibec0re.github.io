@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2025-07-30T01:30:00+02:00</lastmod>
+    <loc>/posts/vibec0re-nixos-rust-guide/</loc>
+    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
   </url><url>
-    <loc>/tags/chaos/</loc>
-    <lastmod>2025-07-30T01:30:00+02:00</lastmod>
+    <loc>/tags/c0re/</loc>
+    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
+  </url><url>
+    <loc>/tags/cargo-mommy/</loc>
+    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
   </url><url>
     <loc>/categories/deepdive/</loc>
+    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
+  </url><url>
+    <loc>/tags/development/</loc>
+    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
+  </url><url>
+    <loc>/categories/guides/</loc>
+    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
+  </url><url>
+    <loc>/tags/nixos/</loc>
+    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
+  </url><url>
+    <loc>/tags/rust/</loc>
+    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
+  </url><url>
+    <loc>/tags/vibec0re/</loc>
+    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
+  </url><url>
+    <loc>/tags/chaos/</loc>
     <lastmod>2025-07-30T01:30:00+02:00</lastmod>
   </url><url>
     <loc>/tags/immutable/</loc>
@@ -20,29 +50,11 @@
     <loc>/posts/nix-nixos-ultimate-vibec0re/</loc>
     <lastmod>2025-07-30T01:30:00+02:00</lastmod>
   </url><url>
-    <loc>/tags/nixos/</loc>
-    <lastmod>2025-07-30T01:30:00+02:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2025-07-30T01:30:00+02:00</lastmod>
-  </url><url>
     <loc>/tags/productivity/</loc>
-    <lastmod>2025-07-30T01:30:00+02:00</lastmod>
-  </url><url>
-    <loc>/tags/rust/</loc>
     <lastmod>2025-07-30T01:30:00+02:00</lastmod>
   </url><url>
     <loc>/categories/systems/</loc>
     <lastmod>2025-07-30T01:30:00+02:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-07-30T01:30:00+02:00</lastmod>
-  </url><url>
-    <loc>/tags/vibec0re/</loc>
-    <lastmod>2025-07-30T01:30:00+02:00</lastmod>
-  </url><url>
-    <loc>/tags/c0re/</loc>
-    <lastmod>2025-07-30T01:20:00+02:00</lastmod>
   </url><url>
     <loc>/posts/deepdive-c0re-practices/</loc>
     <lastmod>2025-07-30T01:20:00+02:00</lastmod>
