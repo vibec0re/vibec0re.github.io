@@ -3,10 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/tags/c0de-witches/</loc>
-    <lastmod>2025-08-05T16:24:10+02:00</lastmod>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2025-08-05T16:24:10+02:00</lastmod>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/chaos/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/claude/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/containers/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/development/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/podman/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/release/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/speed/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/tools/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/tools/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/vibec0re/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/viber00t-release/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/yolo-mode/</loc>
+    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/cyberpunk/</loc>
     <lastmod>2025-08-05T16:24:10+02:00</lastmod>
@@ -14,25 +56,10 @@
     <loc>/tags/digital-magic/</loc>
     <lastmod>2025-08-05T16:24:10+02:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2025-08-05T16:24:10+02:00</lastmod>
-  </url><url>
-    <loc>/categories/release/</loc>
-    <lastmod>2025-08-05T16:24:10+02:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-08-05T16:24:10+02:00</lastmod>
-  </url><url>
     <loc>/tags/terminal/</loc>
     <lastmod>2025-08-05T16:24:10+02:00</lastmod>
   </url><url>
     <loc>/tags/theme/</loc>
-    <lastmod>2025-08-05T16:24:10+02:00</lastmod>
-  </url><url>
-    <loc>/categories/tools/</loc>
-    <lastmod>2025-08-05T16:24:10+02:00</lastmod>
-  </url><url>
-    <loc>/tags/vibec0re/</loc>
     <lastmod>2025-08-05T16:24:10+02:00</lastmod>
   </url><url>
     <loc>/posts/vibec0re-zsh-theme-release/</loc>
@@ -53,9 +80,6 @@
     <loc>/categories/deepdive/</loc>
     <lastmod>2025-07-31T20:09:08+02:00</lastmod>
   </url><url>
-    <loc>/tags/development/</loc>
-    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
-  </url><url>
     <loc>/categories/guides/</loc>
     <lastmod>2025-07-31T20:09:08+02:00</lastmod>
   </url><url>
@@ -64,9 +88,6 @@
   </url><url>
     <loc>/tags/rust/</loc>
     <lastmod>2025-07-31T20:09:08+02:00</lastmod>
-  </url><url>
-    <loc>/tags/chaos/</loc>
-    <lastmod>2025-07-30T01:30:00+02:00</lastmod>
   </url><url>
     <loc>/tags/immutable/</loc>
     <lastmod>2025-07-30T01:30:00+02:00</lastmod>
