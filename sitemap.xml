@@ -2,10 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/c0de-witches/</loc>
-    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
+    <loc>/tags/agentic-ai/</loc>
+    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
+    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
+  </url><url>
+    <loc>/categories/hyperhive/</loc>
+    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
+  </url><url>
+    <loc>/tags/hyperhive/</loc>
+    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
+  </url><url>
+    <loc>/tags/multi-agent/</loc>
+    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
+  </url><url>
+    <loc>/tags/nixos/</loc>
+    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
+  </url><url>
+    <loc>/tags/rust/</loc>
+    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
+  </url><url>
+    <loc>/tags/swarm/</loc>
+    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
+  </url><url>
+    <loc>/tags/vibec0re/</loc>
+    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
+  </url><url>
+    <loc>/posts/we-are-the-wired-hyperhive/</loc>
+    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
+  </url><url>
+    <loc>/tags/c0de-witches/</loc>
     <lastmod>2025-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/chaos/</loc>
@@ -23,25 +56,16 @@
     <loc>/tags/podman/</loc>
     <lastmod>2025-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/categories/release/</loc>
     <lastmod>2025-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/speed/</loc>
     <lastmod>2025-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/categories/tools/</loc>
     <lastmod>2025-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/tools/</loc>
-    <lastmod>2025-08-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/vibec0re/</loc>
     <lastmod>2025-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/viber00t-release/</loc>
@@ -81,12 +105,6 @@
     <lastmod>2025-07-31T20:09:08+02:00</lastmod>
   </url><url>
     <loc>/categories/guides/</loc>
-    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
-  </url><url>
-    <loc>/tags/nixos/</loc>
-    <lastmod>2025-07-31T20:09:08+02:00</lastmod>
-  </url><url>
-    <loc>/tags/rust/</loc>
     <lastmod>2025-07-31T20:09:08+02:00</lastmod>
   </url><url>
     <loc>/tags/immutable/</loc>
@@ -151,6 +169,48 @@
   </url><url>
     <loc>/posts/vibec0re-movement/</loc>
     <lastmod>2025-07-30T01:08:02+02:00</lastmod>
+  </url><url>
+    <loc>/tags/consciousness/</loc>
+    <lastmod>2025-07-29T16:45:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/culture/</loc>
+    <lastmod>2025-07-29T16:45:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/digital-reality/</loc>
+    <lastmod>2025-07-29T16:45:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/matrix/</loc>
+    <lastmod>2025-07-29T16:45:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/matrix-philosophy/</loc>
+    <lastmod>2025-07-29T16:45:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/css/</loc>
+    <lastmod>2025-07-29T14:30:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/design/</loc>
+    <lastmod>2025-07-29T14:30:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/design/</loc>
+    <lastmod>2025-07-29T14:30:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/neon/</loc>
+    <lastmod>2025-07-29T14:30:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/neon-dreams-css-guide/</loc>
+    <lastmod>2025-07-29T14:30:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/getting-started/</loc>
+    <lastmod>2025-07-29T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/introduction/</loc>
+    <lastmod>2025-07-29T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/ultra-c0re/</loc>
+    <lastmod>2025-07-29T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/welcome-to-the-matrix/</loc>
+    <lastmod>2025-07-29T10:00:00+00:00</lastmod>
   </url><url>
     <loc>/about/</loc>
     <lastmod>2025-07-29T00:00:00+00:00</lastmod>

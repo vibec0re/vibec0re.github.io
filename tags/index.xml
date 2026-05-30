@@ -6,8 +6,57 @@
     <description>Recent content in Tags on VIBEC0RE</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 11:30:00 +0200</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agentic-Ai</title>
+      <link>/tags/agentic-ai/</link>
+      <pubDate>Sat, 30 May 2026 11:30:00 +0200</pubDate>
+      <guid>/tags/agentic-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hyperhive</title>
+      <link>/tags/hyperhive/</link>
+      <pubDate>Sat, 30 May 2026 11:30:00 +0200</pubDate>
+      <guid>/tags/hyperhive/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi-Agent</title>
+      <link>/tags/multi-agent/</link>
+      <pubDate>Sat, 30 May 2026 11:30:00 +0200</pubDate>
+      <guid>/tags/multi-agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nixos</title>
+      <link>/tags/nixos/</link>
+      <pubDate>Sat, 30 May 2026 11:30:00 +0200</pubDate>
+      <guid>/tags/nixos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>/tags/rust/</link>
+      <pubDate>Sat, 30 May 2026 11:30:00 +0200</pubDate>
+      <guid>/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Swarm</title>
+      <link>/tags/swarm/</link>
+      <pubDate>Sat, 30 May 2026 11:30:00 +0200</pubDate>
+      <guid>/tags/swarm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vibec0re</title>
+      <link>/tags/vibec0re/</link>
+      <pubDate>Sat, 30 May 2026 11:30:00 +0200</pubDate>
+      <guid>/tags/vibec0re/</guid>
+      <description></description>
+    </item>
     <item>
       <title>C0de-Witches</title>
       <link>/tags/c0de-witches/</link>
@@ -65,13 +114,6 @@
       <description></description>
     </item>
     <item>
-      <title>Vibec0re</title>
-      <link>/tags/vibec0re/</link>
-      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/vibec0re/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Yolo-Mode</title>
       <link>/tags/yolo-mode/</link>
       <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
@@ -125,20 +167,6 @@
       <link>/tags/cargo-mommy/</link>
       <pubDate>Thu, 31 Jul 2025 20:09:08 +0200</pubDate>
       <guid>/tags/cargo-mommy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nixos</title>
-      <link>/tags/nixos/</link>
-      <pubDate>Thu, 31 Jul 2025 20:09:08 +0200</pubDate>
-      <guid>/tags/nixos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rust</title>
-      <link>/tags/rust/</link>
-      <pubDate>Thu, 31 Jul 2025 20:09:08 +0200</pubDate>
-      <guid>/tags/rust/</guid>
       <description></description>
     </item>
     <item>
@@ -216,6 +244,62 @@
       <link>/tags/movement/</link>
       <pubDate>Wed, 30 Jul 2025 01:08:02 +0200</pubDate>
       <guid>/tags/movement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Consciousness</title>
+      <link>/tags/consciousness/</link>
+      <pubDate>Tue, 29 Jul 2025 16:45:00 +0000</pubDate>
+      <guid>/tags/consciousness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital-Reality</title>
+      <link>/tags/digital-reality/</link>
+      <pubDate>Tue, 29 Jul 2025 16:45:00 +0000</pubDate>
+      <guid>/tags/digital-reality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix</title>
+      <link>/tags/matrix/</link>
+      <pubDate>Tue, 29 Jul 2025 16:45:00 +0000</pubDate>
+      <guid>/tags/matrix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Css</title>
+      <link>/tags/css/</link>
+      <pubDate>Tue, 29 Jul 2025 14:30:00 +0000</pubDate>
+      <guid>/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>/tags/design/</link>
+      <pubDate>Tue, 29 Jul 2025 14:30:00 +0000</pubDate>
+      <guid>/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neon</title>
+      <link>/tags/neon/</link>
+      <pubDate>Tue, 29 Jul 2025 14:30:00 +0000</pubDate>
+      <guid>/tags/neon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introduction</title>
+      <link>/tags/introduction/</link>
+      <pubDate>Tue, 29 Jul 2025 10:00:00 +0000</pubDate>
+      <guid>/tags/introduction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ultra-C0re</title>
+      <link>/tags/ultra-c0re/</link>
+      <pubDate>Tue, 29 Jul 2025 10:00:00 +0000</pubDate>
+      <guid>/tags/ultra-c0re/</guid>
       <description></description>
     </item>
   </channel>
