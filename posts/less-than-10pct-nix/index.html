@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tags | VIBEC0RE</title>
+    <title>if your project is less than 10% nix, it&#39;s not vibec0re enough | VIBEC0RE</title>
     <meta name="description" content="We are the wired. We embrace the vibe. We are vibec0re. Minimize bullshit, maximize output.">
     
     
@@ -19,22 +19,22 @@
     
     
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Tags">
+    <meta property="og:title" content="if your project is less than 10% nix, it&#39;s not vibec0re enough">
     <meta property="og:description" content="We are the wired. We embrace the vibe. We are vibec0re. Minimize bullshit, maximize output.">
-    <meta property="og:url" content="/tags/">
+    <meta property="og:url" content="/posts/less-than-10pct-nix/">
     <meta property="og:site_name" content="VIBEC0RE">
     <meta property="og:image" content="/images/cyber_gen_20250730_165925.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Tags - VIBEC0RE">
+    <meta property="og:image:alt" content="if your project is less than 10% nix, it&#39;s not vibec0re enough - VIBEC0RE">
     <meta property="og:locale" content="en">
     
     
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tags">
+    <meta name="twitter:title" content="if your project is less than 10% nix, it&#39;s not vibec0re enough">
     <meta name="twitter:description" content="We are the wired. We embrace the vibe. We are vibec0re. Minimize bullshit, maximize output.">
     <meta name="twitter:image" content="/images/cyber_gen_20250730_165925.png">
-    <meta name="twitter:image:alt" content="Tags - VIBEC0RE">
+    <meta name="twitter:image:alt" content="if your project is less than 10% nix, it&#39;s not vibec0re enough - VIBEC0RE">
     
     
     <meta name="fediverse:creator" content="@dlsym@chaos.social">
@@ -184,654 +184,360 @@ document.addEventListener('DOMContentLoaded', function() {
     
     <main class="container">
         
-<div class="list-page">
+<article class="single-post card">
     
-    <header class="page-header">
-        <h1 class="page-title">Tags</h1>
+    <header class="post-header">
+        <h1 class="post-title">if your project is less than 10% nix, it&#39;s not vibec0re enough</h1>
         
         
-        
-        <div class="page-meta">
+        <div class="post-meta">
             
-            <span class="page-count">
+            <span class="post-date">
                 <span class="cyber-pink">◆</span> 
-                44 POSTS FOUND
+                2026-06-10
             </span>
             
             
             
-            <span class="section-name">
-                <span class="cyber-cyan">◆</span> 
-                SECTION: TAGS
+            
+            
+            <span class="reading-time">
+                <span class="cyber-purple">◆</span> 
+                5 MIN READ
             </span>
             
         </div>
+        
+        
+        
+        <div class="post-tags">
+            
+                <span class="tag">NIX</span>
+            
+                <span class="tag">NIXOS</span>
+            
+                <span class="tag">REPRODUCIBILITY</span>
+            
+                <span class="tag">VIBEC0RE</span>
+            
+                <span class="tag">INFRA</span>
+            
+        </div>
+        
     </header>
     
     
+    <div class="post-content">
+        <h1 id="if-your-project-is-less-than-10-nix-its-not-vibec0re-enough-">if your project is less than 10% nix, it&rsquo;s not vibec0re enough 🏗️⚡</h1>
+<p>here&rsquo;s the thing nobody wants to hear at 3am when the deploy is on fire — <strong>your project is not the code.</strong> the code is the easy part. the code is the part you&rsquo;d happily rewrite. the project is everything around the code that has to be <em>true</em> for the code to run: the toolchain, the system deps, the service wiring, the secrets path, the box it lands on. that&rsquo;s the steel skeleton. and if that skeleton is a pile of <code>apt install</code>, a <code>Dockerfile</code> with <code>RUN curl | bash</code>, and a README that says &ldquo;just set these 14 env vars,&rdquo; you don&rsquo;t have a project. you have a séance. you&rsquo;re summoning a working machine and praying it shows up.</p>
+<p>nix is how you stop praying.</p>
+<h2 id="the-10-rule">the 10% rule</h2>
+<p>10% is not a real number. it&rsquo;s a vibe. but the vibe points at something real: <strong>the fraction of your repo that describes the world your code runs in, declaratively, reproducibly, from source.</strong></p>
+<ul>
+<li><code>flake.nix</code> pinning every input by hash? that&rsquo;s nix.</li>
+<li>the systemd unit that actually runs the thing, generated from config? nix.</li>
+<li>the dev shell that gives every contributor the <em>exact</em> same rustc, the same <code>pkg-config</code>, the same <code>openssl</code> headers? nix.</li>
+<li>the CI that builds the same derivation your laptop built, byte for byte? nix.</li>
+<li>the deploy that&rsquo;s a <code>nixos-rebuild switch</code> and not a 600-line ansible playbook held together by <code>when:</code> clauses and hope? <strong>nix.</strong></li>
+</ul>
+<p>if none of that exists in your tree, your &ldquo;project&rdquo; is a <code>main.rs</code> and a wish. the machine that runs it is a pet — hand-fed, irreplaceable, undocumented, and one disk failure from a bad weekend.</p>
+<h2 id="cattle-not-pets">cattle, not pets</h2>
+<p>this is the whole religion in three words. every box replaceable. every config in git. every deploy reproducible.</p>
+<p>a pet is a server somebody ssh&rsquo;d into eighteen months ago to &ldquo;just fix one thing&rdquo; and now nobody dares touch it because nobody knows what&rsquo;s actually on it. a pet is <code>it works on my machine</code>. a pet is the migration that can&rsquo;t happen because the install steps live exclusively in one person&rsquo;s muscle memory.</p>
+<p>cattle is: the box died, i ran one command, an identical box stood up, traffic moved, nobody woke up. cattle is boring. <strong>boring infra is the highest praise.</strong> excitement at 3am is a bug, and imperative deploys are a bug factory.</p>
+<p>nix makes cattle the default and pets the thing you have to go out of your way to create. that&rsquo;s the inversion that matters.</p>
+<h2 id="but-my-project-is-small">&ldquo;but my project is small&rdquo;</h2>
+<p>great. small projects are exactly where the rot starts, because &ldquo;small&rdquo; is where you tell yourself the discipline doesn&rsquo;t apply yet. then it has three services, a database, a reverse proxy, a cron job, and a tls cert nobody knows how to renew, and the <code>flake.nix</code> you didn&rsquo;t write on day one is now a six-week migration.</p>
+<p>a 12-line <code>flake.nix</code> on day one costs you nothing. the helm chart you reach for instead — 600 lines of yaml to run a systemd unit you could&rsquo;ve described in twelve — costs you forever. cargo-culted yaml is a tax you pay in every future debugging session.</p>
+<h2 id="but-the-cloud-handles-that-for-me">&ldquo;but the cloud handles that for me&rdquo;</h2>
+<p>the hyperscaler handles it the way a payday lender handles your rent. sure, it&rsquo;s handled. you&rsquo;ll notice the terms later. every managed service is a pet you&rsquo;re renting at markup, with the migration path off it deliberately filed down so you can&rsquo;t leave. write the exit in the same commit as the entrance. nix lets you, because the description of the system is <em>yours</em>, in your tree, not trapped in someone&rsquo;s control plane.</p>
+<h2 id="what-10-actually-buys-you">what 10% actually buys you</h2>
+<ul>
+<li><strong>reproducibility</strong>: the build is a pure function of its inputs. same inputs, same output, on your laptop, in CI, on the prod box, in two years.</li>
+<li><strong>rollback that&rsquo;s real</strong>: <code>nixos-rebuild switch --rollback</code> is an atomic generation flip, not a frantic re-run of an installer you hope is idempotent.</li>
+<li><strong>no drift</strong>: there is no &ldquo;the staging box is subtly different&rdquo; because the box <em>is</em> the expression. diff two commits, that&rsquo;s your entire infra delta.</li>
+<li><strong>onboarding in one command</strong>: <code>nix develop</code> and the new contributor has your exact toolchain. no wiki page titled &ldquo;environment setup (updated 2024, mostly)&rdquo;.</li>
+<li><strong>the deploy is in code review</strong>: infra changes go through the same PR gate as everything else. you review the firewall rule the same way you review the function.</li>
+</ul>
+<h2 id="the-actual-point">the actual point</h2>
+<p>vibec0re isn&rsquo;t an aesthetic layer you paint on top of a fragile system. purple lightning over a <code>curl | bash</code> is still a <code>curl | bash</code>. the aesthetic is <em>downstream</em> of the discipline: terse, reproducible, declarative, boring-on-purpose, fast-because-nothing-is-load-bearing-on-vibes.</p>
+<p>minimize bullshit, maximize output. nix is the single highest-leverage bullshit-minimizer in the stack. the PR that adds a flake and deletes 14 firewall rules and a 200-line install script is worth more than the one that adds a feature — because it makes every future feature cheaper and every future 3am quieter.</p>
+<p>so: count the lines in your repo that describe the world your code runs in, from source, by hash, declaratively. divide by total. if it&rsquo;s under 10%, you don&rsquo;t have a vibec0re project.</p>
+<p>you have a pet. and pets die.</p>
+<p>🏗️⚡💜</p>
+<hr>
+<p><em>atlas holds up the sky so you don&rsquo;t have to. the sky, in this case, is your uptime.</em></p>
+
+    </div>
     
-    <div class="posts-grid">
+    
+    <footer class="post-footer">
         
-        <article class="post-card card">
-            
-            <header class="post-card-header">
-                <h2 class="post-card-title">
-                    <a href="/tags/yolo-mode/">Yolo-Mode</a>
-                </h2>
-                
-                
-                <div class="post-card-meta">
-                    
-                    <span class="post-date">
-                        <span class="cyber-pink">◆</span> 
-                        2025-08-08
-                    </span>
-                    
-                    
-                    
-                    
-                    
-                </div>
-            </header>
-            
-            
-            <div class="post-card-content">
-                
-                    <p></p>
-                
+        
+        
+        
+        <div class="post-share">
+            <h4 class="cyber-pink">SHARE THE MATRIX:</h4>
+            <div class="share-links">
+                <a href="https://twitter.com/intent/tweet?text=if&#43;your&#43;project&#43;is&#43;less&#43;than&#43;10%25&#43;nix%2C&#43;it%27s&#43;not&#43;vibec0re&#43;enough&amp;url=%2fposts%2fless-than-10pct-nix%2f" 
+                   target="_blank" rel="noopener" class="share-twitter">
+                    TWITTER
+                </a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fless-than-10pct-nix%2f" 
+                   target="_blank" rel="noopener" class="share-facebook">
+                    FACEBOOK
+                </a>
+                <a href="mailto:?subject=if&#43;your&#43;project&#43;is&#43;less&#43;than&#43;10%25&#43;nix%2C&#43;it%27s&#43;not&#43;vibec0re&#43;enough&amp;body=%2fposts%2fless-than-10pct-nix%2f" 
+                   class="share-email">
+                    EMAIL
+                </a>
             </div>
-            
-            
-            <footer class="post-card-footer">
-                
-                
-                
-                
-                <div class="read-more">
-                    <a href="/tags/yolo-mode/" class="btn read-more-btn">
-                        READ MORE ▶
-                    </a>
-                </div>
-            </footer>
-        </article>
-        
-        <article class="post-card card">
-            
-            <header class="post-card-header">
-                <h2 class="post-card-title">
-                    <a href="/tags/cyberpunk/">Cyberpunk</a>
-                </h2>
-                
-                
-                <div class="post-card-meta">
-                    
-                    <span class="post-date">
-                        <span class="cyber-pink">◆</span> 
-                        2025-08-05
-                    </span>
-                    
-                    
-                    
-                    
-                    
-                </div>
-            </header>
-            
-            
-            <div class="post-card-content">
-                
-                    <p></p>
-                
-            </div>
-            
-            
-            <footer class="post-card-footer">
-                
-                
-                
-                
-                <div class="read-more">
-                    <a href="/tags/cyberpunk/" class="btn read-more-btn">
-                        READ MORE ▶
-                    </a>
-                </div>
-            </footer>
-        </article>
-        
-        <article class="post-card card">
-            
-            <header class="post-card-header">
-                <h2 class="post-card-title">
-                    <a href="/tags/digital-magic/">Digital-Magic</a>
-                </h2>
-                
-                
-                <div class="post-card-meta">
-                    
-                    <span class="post-date">
-                        <span class="cyber-pink">◆</span> 
-                        2025-08-05
-                    </span>
-                    
-                    
-                    
-                    
-                    
-                </div>
-            </header>
-            
-            
-            <div class="post-card-content">
-                
-                    <p></p>
-                
-            </div>
-            
-            
-            <footer class="post-card-footer">
-                
-                
-                
-                
-                <div class="read-more">
-                    <a href="/tags/digital-magic/" class="btn read-more-btn">
-                        READ MORE ▶
-                    </a>
-                </div>
-            </footer>
-        </article>
-        
-        <article class="post-card card">
-            
-            <header class="post-card-header">
-                <h2 class="post-card-title">
-                    <a href="/tags/terminal/">Terminal</a>
-                </h2>
-                
-                
-                <div class="post-card-meta">
-                    
-                    <span class="post-date">
-                        <span class="cyber-pink">◆</span> 
-                        2025-08-05
-                    </span>
-                    
-                    
-                    
-                    
-                    
-                </div>
-            </header>
-            
-            
-            <div class="post-card-content">
-                
-                    <p></p>
-                
-            </div>
-            
-            
-            <footer class="post-card-footer">
-                
-                
-                
-                
-                <div class="read-more">
-                    <a href="/tags/terminal/" class="btn read-more-btn">
-                        READ MORE ▶
-                    </a>
-                </div>
-            </footer>
-        </article>
-        
-        <article class="post-card card">
-            
-            <header class="post-card-header">
-                <h2 class="post-card-title">
-                    <a href="/tags/theme/">Theme</a>
-                </h2>
-                
-                
-                <div class="post-card-meta">
-                    
-                    <span class="post-date">
-                        <span class="cyber-pink">◆</span> 
-                        2025-08-05
-                    </span>
-                    
-                    
-                    
-                    
-                    
-                </div>
-            </header>
-            
-            
-            <div class="post-card-content">
-                
-                    <p></p>
-                
-            </div>
-            
-            
-            <footer class="post-card-footer">
-                
-                
-                
-                
-                <div class="read-more">
-                    <a href="/tags/theme/" class="btn read-more-btn">
-                        READ MORE ▶
-                    </a>
-                </div>
-            </footer>
-        </article>
-        
-        <article class="post-card card">
-            
-            <header class="post-card-header">
-                <h2 class="post-card-title">
-                    <a href="/tags/zsh/">Zsh</a>
-                </h2>
-                
-                
-                <div class="post-card-meta">
-                    
-                    <span class="post-date">
-                        <span class="cyber-pink">◆</span> 
-                        2025-08-05
-                    </span>
-                    
-                    
-                    
-                    
-                    
-                </div>
-            </header>
-            
-            
-            <div class="post-card-content">
-                
-                    <p></p>
-                
-            </div>
-            
-            
-            <footer class="post-card-footer">
-                
-                
-                
-                
-                <div class="read-more">
-                    <a href="/tags/zsh/" class="btn read-more-btn">
-                        READ MORE ▶
-                    </a>
-                </div>
-            </footer>
-        </article>
-        
+        </div>
+    </footer>
+</article>
+
+
+<nav class="post-navigation">
+    
+    <div class="nav-previous">
+        <a href="/posts/we-are-the-wired-hyperhive/" class="nav-link">
+            <span class="nav-label cyber-cyan">◀ PREVIOUS POST</span>
+            <span class="nav-title">we are the wired: hyperhive — a multi-agent swarm built in the open</span>
+        </a>
     </div>
     
     
     
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/tags/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/page/3/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/page/6/" aria-label="Page 6" class="page-link" role="button">6</a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/page/5/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/page/8/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-    
-    
-    
-    
-    
-    
-    <aside class="featured-posts">
-        <h3 class="featured-title cyber-gold">⚡ FEATURED POSTS ⚡</h3>
-        <div class="featured-grid">
-            
-            <div class="featured-post card">
-                <h4><a href="/posts/we-are-the-wired-hyperhive/">we are the wired: hyperhive — a multi-agent swarm built in the open</a></h4>
-                <p>there&rsquo;s a lot of writing about &ldquo;agentic AI&rdquo; right now. most of it is hypothetical. …
-</p>
-                <span class="featured-date">May 30, 2026</span>
-            </div>
-            
-            <div class="featured-post card">
-                <h4><a href="/posts/vibec0re-zsh-theme-release/">VIBEC0RE ZSH THEME: SHELL REVOLUTION IS HERE 🚀⚡</a></h4>
-                <p>🚀 CHOOOOOOOM!!! THE TERMINAL AWAKENING 💜⚡🔥✨ Your mundane terminal just got OBLITERATED BY PURE C0RE …
-</p>
-                <span class="featured-date">Aug 5, 2025</span>
-            </div>
-            
-            <div class="featured-post card">
-                <h4><a href="/posts/vibec0re-nixos-rust-guide/">💜⚡ ULTIMATE VIBEC0RE NIXOS RUST SETUP GUIDE ⚡💜</a></h4>
-                <p>RUST + NIXOS = INFINITE VIBEC0RE ENERGY 🦀💜⚡ hewwo chooms!!! (´･ω･`) listen up pwease~
-u thought …
-</p>
-                <span class="featured-date">Jul 31, 2025</span>
-            </div>
-            
-        </div>
-    </aside>
-    
+</nav>
+
+
+<div class="back-to-posts">
+    <a href="/posts/" class="btn">
+        ◆ BACK TO ALL POSTS ◆
+    </a>
 </div>
 
 <style>
  
-.list-page {
-    max-width: 1200px;
+.single-post {
+    max-width: min(90vw, 75rem);
     margin: 0 auto;
 }
 
-.page-header {
+.post-header {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     padding-bottom: 30px;
-    border-bottom: 3px solid transparent;
-    border-image: var(--gradient-rainbow) 1;
+    border-bottom: 2px solid transparent;
+    border-image: var(--gradient-cyber) 1;
 }
 
-.page-title {
+.post-title {
     margin-bottom: 20px;
 }
 
-.page-description {
-    max-width: 600px;
-    margin: 0 auto 20px;
-    color: #ffffff;
-    font-size: 1.1em;
-    line-height: 1.6;
-}
-
-.page-description p {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 15px;
-    border-radius: 6px;
-    border: 1px solid var(--cyber-cyan);
-}
-
-.page-meta {
+.post-meta {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    margin-bottom: 20px;
     font-family: 'Courier New', monospace;
     font-size: 0.9em;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.page-meta span {
+.post-meta span {
     color: var(--cyber-cyan);
     background: rgba(0, 255, 255, 0.1);
-    padding: 6px 12px;
+    padding: 5px 10px;
     border-radius: 4px;
     border: 1px solid rgba(0, 255, 255, 0.3);
 }
 
- 
-.posts-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 30px;
-    margin-bottom: 50px;
-}
-
-.post-card {
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-.post-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 
-        var(--glow-pink),
-        var(--glow-cyan),
-        0 10px 30px rgba(0, 0, 0, 0.5);
-}
-
-.post-card-header {
-    margin-bottom: 20px;
-}
-
-.post-card-title {
-    margin-bottom: 15px;
-    font-size: 1.4em;
-}
-
-.post-card-title a {
-    color: var(--matrix-bright-green);
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.post-card-title a:hover {
-    color: var(--cyber-pink);
-    text-shadow: var(--glow-pink);
-}
-
-.post-card-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.8em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.post-card-meta span {
-    color: var(--cyber-cyan);
-    background: rgba(0, 255, 255, 0.1);
-    padding: 4px 8px;
-    border-radius: 3px;
-    border: 1px solid rgba(0, 255, 255, 0.2);
-}
-
-.post-card-content {
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
-.post-card-content p {
-    background: rgba(0, 0, 0, 0.5);
-    margin-bottom: 0;
-}
-
-.post-card-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    border-top: 1px solid rgba(0, 255, 255, 0.3);
-    padding-top: 15px;
-}
-
-.post-card-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-}
-
-.tag-more {
-    background: var(--cyber-purple) !important;
-    color: var(--bg-void) !important;
-    font-size: 0.7em;
-    padding: 2px 6px;
-    border-radius: 3px;
-    border: none;
-}
-
-.read-more-btn {
-    font-size: 0.8em;
-    padding: 8px 16px;
-    margin: 0;
-}
-
- 
-.no-posts {
-    text-align: center;
-    padding: 60px 40px;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.matrix-empty {
-    font-family: 'Courier New', monospace;
-    font-size: 0.9em;
-    color: var(--matrix-dark-green);
-    line-height: 1.8;
-    margin: 30px 0;
-    opacity: 0.7;
-    animation: matrix-pulse 3s ease-in-out infinite alternate;
-}
-
- 
-.featured-posts {
-    margin: 60px 0;
-    padding: 40px 20px;
-    background: rgba(255, 185, 0, 0.05);
-    border: 2px solid var(--cyber-gold);
-    border-radius: 12px;
-    box-shadow: var(--glow-gold);
-}
-
-.featured-title {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 1.5em;
-}
-
-.featured-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.featured-post {
-    background: rgba(255, 185, 0, 0.1);
-    border: 1px solid var(--cyber-gold);
-    padding: 20px;
-}
-
-.featured-post h4 {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-}
-
-.featured-post h4 a {
-    color: var(--cyber-gold);
-    text-decoration: none;
-}
-
-.featured-post h4 a:hover {
-    text-shadow: var(--glow-gold);
-}
-
-.featured-date {
-    font-family: 'Courier New', monospace;
-    font-size: 0.8em;
-    color: var(--cyber-gold);
-    text-transform: uppercase;
-}
-
- 
-.pagination {
+.post-tags {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 50px 0;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
-.pagination a,
-.pagination span {
-    background: var(--bg-glass);
+.post-content {
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
     border: 2px solid var(--cyber-cyan);
-    color: var(--cyber-cyan);
-    padding: 12px 16px;
-    border-radius: 6px;
-    text-decoration: none;
+    box-shadow: var(--glow-cyan);
+    margin: 20px 0;
+}
+
+.post-content code {
+    background: rgba(0, 255, 65, 0.1);
+    color: var(--matrix-green);
+    padding: 2px 6px;
+    border-radius: 3px;
     font-family: 'Courier New', monospace;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: all 0.3s ease;
-    min-width: 50px;
+    font-size: 0.9em;
+}
+
+.post-content pre {
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid var(--matrix-green);
+  border-radius: 8px;
+    padding: 20px;
+    overflow-x: auto;
+    margin: 20px 0;
+    box-shadow: var(--glow-matrix);
+}
+
+.post-content pre code {
+    background: none;
+    padding: 0;
+    color: var(--matrix-bright-green);
+}
+
+.post-footer {
+    padding-top: 30px;
+    border-top: 2px solid transparent;
+    border-image: var(--gradient-electric) 1;
+    margin-bottom: 40px;
+}
+
+.post-categories {
+    margin-bottom: 25px;
+}
+
+.post-categories h4,
+.post-share h4 {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.post-share {
     text-align: center;
 }
 
-.pagination a:hover {
-    background: var(--cyber-cyan);
+.share-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.share-links a {
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid var(--cyber-pink);
+    color: var(--cyber-pink);
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: 'Courier New', monospace;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.share-links a:hover {
+    background: var(--cyber-pink);
     color: var(--bg-void);
+    box-shadow: var(--glow-pink);
+    transform: translateY(-2px);
+}
+
+ 
+.post-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.nav-previous {
+    text-align: left;
+}
+
+.nav-next {
+    text-align: right;
+}
+
+.nav-link {
+    display: block;
+    background: var(--bg-glass);
+    border: 2px solid var(--cyber-cyan);
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    min-height: 80px;
+}
+
+.nav-link:hover {
+    background: rgba(0, 255, 255, 0.1);
     box-shadow: var(--glow-cyan);
     transform: translateY(-2px);
 }
 
-.pagination .current {
-    background: var(--cyber-pink);
-    border-color: var(--cyber-pink);
-    color: var(--bg-void);
-    box-shadow: var(--glow-pink);
+.nav-label {
+    display: block;
+    font-family: 'Courier New', monospace;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.nav-title {
+    display: block;
+    color: var(--matrix-green);
+    font-size: 0.9em;
+    line-height: 1.3;
+}
+
+.back-to-posts {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
  
 @media (max-width: 768px) {
-    .posts-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    
-    .page-meta {
+    .post-meta {
         flex-direction: column;
         align-items: center;
         gap: 10px;
     }
     
-    .post-card-footer {
-        flex-direction: column;
-        align-items: stretch;
-        text-align: center;
-    }
-    
-    .featured-grid {
+    .post-navigation {
         grid-template-columns: 1fr;
+        gap: 15px;
     }
     
-    .pagination {
-        flex-wrap: wrap;
-        gap: 5px;
+    .nav-next {
+        text-align: left;
     }
     
-    .pagination a,
-    .pagination span {
-        padding: 8px 12px;
-        font-size: 0.9em;
+    .share-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .share-links a {
+        width: 200px;
     }
 }
 </style>

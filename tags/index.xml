@@ -6,8 +6,43 @@
     <description>Recent content in Tags on VIBEC0RE</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 May 2026 11:30:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infra</title>
+      <link>/tags/infra/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/infra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nix</title>
+      <link>/tags/nix/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/nix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nixos</title>
+      <link>/tags/nixos/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/nixos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reproducibility</title>
+      <link>/tags/reproducibility/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/reproducibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vibec0re</title>
+      <link>/tags/vibec0re/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/vibec0re/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Agentic-Ai</title>
       <link>/tags/agentic-ai/</link>
@@ -30,13 +65,6 @@
       <description></description>
     </item>
     <item>
-      <title>Nixos</title>
-      <link>/tags/nixos/</link>
-      <pubDate>Sat, 30 May 2026 11:30:00 +0200</pubDate>
-      <guid>/tags/nixos/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Rust</title>
       <link>/tags/rust/</link>
       <pubDate>Sat, 30 May 2026 11:30:00 +0200</pubDate>
@@ -48,13 +76,6 @@
       <link>/tags/swarm/</link>
       <pubDate>Sat, 30 May 2026 11:30:00 +0200</pubDate>
       <guid>/tags/swarm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vibec0re</title>
-      <link>/tags/vibec0re/</link>
-      <pubDate>Sat, 30 May 2026 11:30:00 +0200</pubDate>
-      <guid>/tags/vibec0re/</guid>
       <description></description>
     </item>
     <item>
@@ -174,13 +195,6 @@
       <link>/tags/immutable/</link>
       <pubDate>Wed, 30 Jul 2025 01:30:00 +0200</pubDate>
       <guid>/tags/immutable/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nix</title>
-      <link>/tags/nix/</link>
-      <pubDate>Wed, 30 Jul 2025 01:30:00 +0200</pubDate>
-      <guid>/tags/nix/</guid>
       <description></description>
     </item>
     <item>

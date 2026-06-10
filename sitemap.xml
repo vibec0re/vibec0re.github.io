@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/less-than-10pct-nix/</loc>
+    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/infra/</loc>
+    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/nix/</loc>
+    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/nixos/</loc>
+    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/reproducibility/</loc>
+    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/vibec0re/</loc>
+    <lastmod>2026-06-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/agentic-ai/</loc>
     <lastmod>2026-05-30T11:30:00+02:00</lastmod>
   </url><url>
@@ -17,22 +41,10 @@
     <loc>/tags/multi-agent/</loc>
     <lastmod>2026-05-30T11:30:00+02:00</lastmod>
   </url><url>
-    <loc>/tags/nixos/</loc>
-    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
-  </url><url>
     <loc>/tags/rust/</loc>
     <lastmod>2026-05-30T11:30:00+02:00</lastmod>
   </url><url>
     <loc>/tags/swarm/</loc>
-    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2026-05-30T11:30:00+02:00</lastmod>
-  </url><url>
-    <loc>/tags/vibec0re/</loc>
     <lastmod>2026-05-30T11:30:00+02:00</lastmod>
   </url><url>
     <loc>/posts/we-are-the-wired-hyperhive/</loc>
@@ -108,9 +120,6 @@
     <lastmod>2025-07-31T20:09:08+02:00</lastmod>
   </url><url>
     <loc>/tags/immutable/</loc>
-    <lastmod>2025-07-30T01:30:00+02:00</lastmod>
-  </url><url>
-    <loc>/tags/nix/</loc>
     <lastmod>2025-07-30T01:30:00+02:00</lastmod>
   </url><url>
     <loc>/posts/nix-nixos-ultimate-vibec0re/</loc>
