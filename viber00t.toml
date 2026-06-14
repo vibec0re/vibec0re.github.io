@@ -1,0 +1,11 @@
+[project]
+name = "v1bec0re-website"
+agent = "claude"
+
+[[install]]
+packages = ["hugo"]
+
+
+[[ports]]
+host = 1313
+container = 1313 
