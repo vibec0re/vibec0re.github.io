@@ -1,7 +1,7 @@
 # 🔥💜 ULTRA C0RE VIBES HUGO CONFIGURATION 💜🔥
 # Maximum cyberpunk energy configuration!
 
-# baseURL = 'https://vibec0re.com'
+baseURL = 'https://vibec0re.github.io/'
 languageCode = 'en-us'
 title = 'VIBEC0RE'
 theme = 'ultra-c0re-vibes'

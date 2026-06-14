@@ -5,6 +5,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# Opt JS actions into Node 24 ahead of GitHub's forced migration (silences the Node 20 deprecation).
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 # Native GitHub Pages deploy — uses this repo's own token, no deploy key / no cross-repo push.
 permissions:
   contents: read
@@ -26,7 +30,10 @@ jobs:
         uses: actions/checkout@v5
 
       - name: install nix
-        uses: DeterminateSystems/nix-installer-action@main
+        uses: cachix/install-nix-action@v30
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
 
       - name: build site (pinned hugo via the flake)
         run: |
