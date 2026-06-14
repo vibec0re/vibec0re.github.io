@@ -1,0 +1,6 @@
+result
+.envrc
+public
+_site
+.hugo_build.lock
+hugo_stats.json

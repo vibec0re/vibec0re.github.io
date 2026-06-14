@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang | default "en" }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ with .Title }} | {{ . }}{{ end }}{{ end }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    
+    <!-- 🔥 ULTRA C0RE VIBES CSS 🔥 -->
+    <link rel="stylesheet" href="{{ "css/ultra-c0re-vibes.css" | relURL }}">
+    
+    <!-- Matrix Font Loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Cyber Meta Tags -->
+    <meta name="theme-color" content="#00ff41">
+    <meta name="robots" content="index, follow">
+    
+    <!-- 🔥 ULTRA VIBEC0RE OPEN GRAPH TAGS 🔥 -->
+    <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+    <meta property="og:title" content="{{ .Title | default .Site.Title }}">
+    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.preview_image | default .Site.Params.social_preview.default_image }}">
+    <meta property="og:image:width" content="{{ .Site.Params.social_preview.og_image_width }}">
+    <meta property="og:image:height" content="{{ .Site.Params.social_preview.og_image_height }}">
+    <meta property="og:image:alt" content="{{ .Title | default .Site.Title }} - VIBEC0RE">
+    <meta property="og:locale" content="{{ .Site.Language.Lang | default "en_US" }}">
+    
+    <!-- 💜 TWITTER CARD TAGS (works for Mastodon too!) 💜 -->
+    <meta name="twitter:card" content="{{ .Site.Params.social_preview.twitter_card_type }}">
+    <meta name="twitter:title" content="{{ .Title | default .Site.Title }}">
+    <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.preview_image | default .Site.Params.social_preview.default_image }}">
+    <meta name="twitter:image:alt" content="{{ .Title | default .Site.Title }} - VIBEC0RE">
+    
+    <!-- ⚡ FEDIVERSE TAGS ⚡ -->
+    <meta name="fediverse:creator" content="{{ .Site.Params.social_preview.mastodon_handle }}">
+    
+    {{ block "head" . }}{{ end }}
+</head>
+<body class="cyber-matrix">
+    <!-- 🌈 CYBER NAVIGATION 🌈 -->
+    {{ partial "header.html" . }}
+    
+    <!-- 🎯 MAIN CONTENT MATRIX 🎯 -->
+    <main class="container">
+        {{ block "main" . }}{{ end }}
+    </main>
+    
+    <!-- 🌟 CYBER FOOTER 🌟 -->
+    {{ partial "footer.html" . }}
+    
+    <!-- Matrix Rain Effect Script -->
+    <script>
+        // Matrix Digital Rain Effect
+        function createMatrixRain() {
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            canvas.style.position = 'fixed';
+            canvas.style.top = '0';
+            canvas.style.left = '0';
+            canvas.style.zIndex = '-2';
+            canvas.style.pointerEvents = 'none';
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            
+            document.body.appendChild(canvas);
+            
+            const matrix = "アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            const matrixArray = matrix.split("");
+            
+            const fontSize = 10;
+            const columns = canvas.width / fontSize;
+            const drops = [];
+            
+            for (let x = 0; x < columns; x++) {
+                drops[x] = 1;
+            }
+            
+            function draw() {
+                ctx.fillStyle = 'rgba(0, 0, 0, 0.04)';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                
+                ctx.fillStyle = '#00ff41';
+                ctx.font = fontSize + 'px monospace';
+                
+                for (let i = 0; i < drops.length; i++) {
+                    const text = matrixArray[Math.floor(Math.random() * matrixArray.length)];
+                    ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+                    
+                    if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                        drops[i] = 0;
+                    }
+                    drops[i]++;
+                }
+            }
+            
+            setInterval(draw, 35);
+            
+            window.addEventListener('resize', () => {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            });
+        }
+        
+        // Initialize Matrix Rain on page load
+        document.addEventListener('DOMContentLoaded', createMatrixRain);
+    </script>
+    
+    {{ block "footer-scripts" . }}{{ end }}
+</body>
+</html>
