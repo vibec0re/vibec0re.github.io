@@ -43,24 +43,6 @@
         </div>
     </section>
     
-    <!-- 🔥 VIBEC0RE MANIFESTO - PROMINENT AF 🔥 -->
-    {{ if .Content }}
-    <section class="vibec0re-manifesto-section">
-        <div class="manifesto-container">
-            <div class="manifesto-header">
-                <h2 class="manifesto-title">
-                    <span class="cyber-pink">⚡</span>
-                    THE VIBEC0RE MANIFESTO
-                    <span class="cyber-pink">⚡</span>
-                </h2>
-            </div>
-            <div class="manifesto-content">
-                {{ .Content }}
-            </div>
-        </div>
-    </section>
-    {{ end }}
-    
     <!-- 📰 RECENT POSTS SECTION 📰 -->
     {{ $posts := where .Site.RegularPages "Section" "posts" }}
     {{ if $posts }}
@@ -129,6 +111,24 @@
     </section>
     {{ end }}
     
+    <!-- 🔥 VIBEC0RE MANIFESTO - PROMINENT AF 🔥 -->
+    {{ if .Content }}
+    <section class="vibec0re-manifesto-section">
+        <div class="manifesto-container">
+            <div class="manifesto-header">
+                <h2 class="manifesto-title">
+                    <span class="cyber-pink">⚡</span>
+                    THE VIBEC0RE MANIFESTO
+                    <span class="cyber-pink">⚡</span>
+                </h2>
+            </div>
+            <div class="manifesto-content">
+                {{ .Content }}
+            </div>
+        </div>
+    </section>
+    {{ end }}
+
     <!-- 🎯 FEATURED CONTENT 🎯 -->
     {{ $featured := where .Site.RegularPages "Params.featured" true }}
     {{ if $featured }}
