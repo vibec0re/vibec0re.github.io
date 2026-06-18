@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on VIBEC0RE</title>
-    <link>/categories/</link>
+    <link>https://vibec0re.github.io/categories/</link>
     <description>Recent content in Categories on VIBEC0RE</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 08 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://vibec0re.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Release</title>
-      <link>/categories/release/</link>
+      <link>https://vibec0re.github.io/categories/release/</link>
       <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>/categories/release/</guid>
+      <guid>https://vibec0re.github.io/categories/release/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
-      <link>/categories/tools/</link>
+      <link>https://vibec0re.github.io/categories/tools/</link>
       <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>/categories/tools/</guid>
+      <guid>https://vibec0re.github.io/categories/tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Deepdive</title>
-      <link>/categories/deepdive/</link>
+      <link>https://vibec0re.github.io/categories/deepdive/</link>
       <pubDate>Thu, 31 Jul 2025 20:09:08 +0200</pubDate>
-      <guid>/categories/deepdive/</guid>
+      <guid>https://vibec0re.github.io/categories/deepdive/</guid>
       <description></description>
     </item>
     <item>
       <title>Guides</title>
-      <link>/categories/guides/</link>
+      <link>https://vibec0re.github.io/categories/guides/</link>
       <pubDate>Thu, 31 Jul 2025 20:09:08 +0200</pubDate>
-      <guid>/categories/guides/</guid>
+      <guid>https://vibec0re.github.io/categories/guides/</guid>
       <description></description>
     </item>
     <item>
       <title>Systems</title>
-      <link>/categories/systems/</link>
+      <link>https://vibec0re.github.io/categories/systems/</link>
       <pubDate>Wed, 30 Jul 2025 01:30:00 +0200</pubDate>
-      <guid>/categories/systems/</guid>
+      <guid>https://vibec0re.github.io/categories/systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Practices</title>
-      <link>/categories/practices/</link>
+      <link>https://vibec0re.github.io/categories/practices/</link>
       <pubDate>Wed, 30 Jul 2025 01:20:00 +0200</pubDate>
-      <guid>/categories/practices/</guid>
+      <guid>https://vibec0re.github.io/categories/practices/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorials</title>
-      <link>/categories/tutorials/</link>
+      <link>https://vibec0re.github.io/categories/tutorials/</link>
       <pubDate>Wed, 30 Jul 2025 01:20:00 +0200</pubDate>
-      <guid>/categories/tutorials/</guid>
+      <guid>https://vibec0re.github.io/categories/tutorials/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophy</title>
-      <link>/categories/philosophy/</link>
+      <link>https://vibec0re.github.io/categories/philosophy/</link>
       <pubDate>Wed, 30 Jul 2025 01:15:00 +0200</pubDate>
-      <guid>/categories/philosophy/</guid>
+      <guid>https://vibec0re.github.io/categories/philosophy/</guid>
       <description></description>
     </item>
     <item>
       <title>Theory</title>
-      <link>/categories/theory/</link>
+      <link>https://vibec0re.github.io/categories/theory/</link>
       <pubDate>Wed, 30 Jul 2025 01:15:00 +0200</pubDate>
-      <guid>/categories/theory/</guid>
+      <guid>https://vibec0re.github.io/categories/theory/</guid>
       <description></description>
     </item>
     <item>
       <title>Movement</title>
-      <link>/categories/movement/</link>
+      <link>https://vibec0re.github.io/categories/movement/</link>
       <pubDate>Wed, 30 Jul 2025 01:08:02 +0200</pubDate>
-      <guid>/categories/movement/</guid>
+      <guid>https://vibec0re.github.io/categories/movement/</guid>
       <description></description>
     </item>
   </channel>
