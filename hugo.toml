@@ -51,13 +51,7 @@ enableEmoji = true
     url = "https://chaos.social/@dlsym"
   [[params.social]]
     name = "GitHub"
-    url = "https://github.com/yourusername"
-  [[params.social]]
-    name = "Matrix"
-    url = "https://matrix.to/#/@you:matrix.org"
-  [[params.social]]
-    name = "Discord"
-    url = "https://discord.gg/yourinvite"
+    url = "https://github.com/vibec0re"
 
 # Menu configuration
 [menu]
