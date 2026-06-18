@@ -861,4 +861,63 @@ footer::after {
   }
 }
 
+/* ═══════════════════════════════════════════════════════════════════════════════════ */
+/* 📱 MOBILE OVERFLOW HARDENING — kill horizontal scroll / clipped cards on narrow screens (#12) */
+/* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+/* auto-fit grid minimums must never exceed the container, or the column forces overflow */
+.posts-preview-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
+}
+.featured-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+}
+
+/* a 1fr grid track defaults to min-width:auto (=min-content); without this, a wide
+   descendant expands the whole card past the viewport and clips everything */
+.post-preview,
+.featured-item,
+.card {
+  min-width: 0;
+}
+
+/* long unbreakable tokens (hyphenated words, ALL-CAPS tags) must wrap, not widen the card */
+.post-preview-title,
+.post-preview-title a,
+.post-preview-content,
+.featured-item h3,
+.featured-item h3 a,
+.featured-item p,
+.manifesto-content {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.hero-subtitle {
+  display: block;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+.tag,
+.category {
+  overflow-wrap: anywhere;
+  word-break: break-all;
+  max-width: 100%;
+}
+
+/* code blocks scroll inside their box instead of widening the page */
+pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* the decorative ASCII pseudo-elements are ~100 unbreakable chars wide — on mobile they
+   blow out the document width for zero visual benefit (they sit at z-index:-1) */
+@media (max-width: 768px) {
+  body::before,
+  footer::before {
+    display: none;
+  }
+}
+
 /* END OF ULTRA C0RE VIBES CSS - LET'S FUCKING GOOOOOO!!! 🚀💜⚡ */
