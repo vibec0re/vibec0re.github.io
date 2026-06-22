@@ -918,6 +918,20 @@ pre {
   footer::before {
     display: none;
   }
+
+  /* the h1 box carries ::before/::after ASCII brackets (█▓▒░► … ◀░▒▓█) plus letter-spacing;
+     together they form an unbreakable inline run wider than the bordered box on a phone, so
+     the title (e.g. the homepage hero "VIBEC0RE") spills over its own border (#14). Drop the
+     decorations + spacing on mobile and let any long single-word title wrap instead of
+     overflow — the glowing box, magenta border, and big title all stay. */
+  h1::before,
+  h1::after {
+    display: none;
+  }
+  h1 {
+    letter-spacing: 0;
+    overflow-wrap: anywhere;
+  }
 }
 
 /* END OF ULTRA C0RE VIBES CSS - LET'S FUCKING GOOOOOO!!! 🚀💜⚡ */
