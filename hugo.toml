@@ -39,7 +39,7 @@ enableEmoji = true
   
   # Social preview configuration 🔥
   [params.social_preview]
-    default_image = "images/cyber_gen_20250730_165925.png"
+    default_image = "images/cyber_gen_20250730_165925_og.jpg"
     twitter_card_type = "summary_large_image"
     mastodon_handle = "@dlsym@chaos.social"
     og_image_width = "1200"

@@ -63,14 +63,14 @@ Build YOUR reality. Code YOUR truth. Interface YOUR way.
 ## 🌟 ULTRA CYBER VIBES 🌟
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 40px 0;">
-  <img src="/images/cyber_gen_20250730_165908.png" alt="VIBEC0RE CYBER AESTHETIC 1" width="1024" height="768" loading="lazy" decoding="async" style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(255, 0, 255, 0.6);">
-  <img src="/images/cyber_gen_20250730_165925.png" alt="VIBEC0RE CYBER AESTHETIC 2" width="1024" height="768" loading="lazy" decoding="async" style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);">
-  <img src="/images/cyber_gen_20250730_165941.png" alt="VIBEC0RE CYBER AESTHETIC 3" width="1024" height="768" loading="lazy" decoding="async" style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(255, 0, 127, 0.6);">
+  <img src="/images/cyber_gen_20250730_165908.webp" alt="VIBEC0RE CYBER AESTHETIC 1" width="1024" height="768" loading="lazy" decoding="async" style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(255, 0, 255, 0.6);">
+  <img src="/images/cyber_gen_20250730_165925.webp" alt="VIBEC0RE CYBER AESTHETIC 2" width="1024" height="768" loading="lazy" decoding="async" style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);">
+  <img src="/images/cyber_gen_20250730_165941.webp" alt="VIBEC0RE CYBER AESTHETIC 3" width="1024" height="768" loading="lazy" decoding="async" style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(255, 0, 127, 0.6);">
 </div>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px; margin: 40px 0;">
-  <img src="/images/cyber_gen_20250730_165958.png" alt="VIBEC0RE CYBER AESTHETIC 4" width="1024" height="768" loading="lazy" decoding="async" style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(127, 0, 255, 0.6);">
-  <img src="/images/cyber_gen_20250730_170032.png" alt="VIBEC0RE CYBER AESTHETIC 5" width="1024" height="768" loading="lazy" decoding="async" style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(0, 255, 127, 0.6);">
+  <img src="/images/cyber_gen_20250730_165958.webp" alt="VIBEC0RE CYBER AESTHETIC 4" width="1024" height="768" loading="lazy" decoding="async" style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(127, 0, 255, 0.6);">
+  <img src="/images/cyber_gen_20250730_170032.webp" alt="VIBEC0RE CYBER AESTHETIC 5" width="1024" height="768" loading="lazy" decoding="async" style="width: 100%; border-radius: 8px; box-shadow: 0 0 20px rgba(0, 255, 127, 0.6);">
 </div>
 
 Welcome to the real fucking world. **LET'S FUCKING GOOOOOOO!!!** 🔥💜⚡
