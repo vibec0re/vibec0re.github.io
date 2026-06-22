@@ -693,6 +693,24 @@
     .section-title {
         font-size: 1.8rem;
     }
+
+    /* the manifesto heading was the one homepage title with no mobile size step:
+       3rem + the inherited h2 ▶▐█/█▌◀ decorations + 3px tracking blew it across
+       several lines on a phone (#19). Shrink it, drop the decorations + tracking,
+       and let it wrap; also size-down the manifesto body h2s in the same section. */
+    .manifesto-title {
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        overflow-wrap: anywhere;
+    }
+    .manifesto-title::before,
+    .manifesto-title::after {
+        display: none;
+    }
+
+    .manifesto-content h2 {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -706,6 +724,10 @@
     
     .stat-number {
         font-size: 2rem;
+    }
+
+    .manifesto-content h2 {
+        font-size: 1.3rem;
     }
 }
 </style>
