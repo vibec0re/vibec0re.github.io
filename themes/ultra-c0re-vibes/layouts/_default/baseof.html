@@ -42,11 +42,12 @@
     {{ block "head" . }}{{ end }}
 </head>
 <body class="cyber-matrix">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <!-- 🌈 CYBER NAVIGATION 🌈 -->
     {{ partial "header.html" . }}
     
     <!-- 🎯 MAIN CONTENT MATRIX 🎯 -->
-    <main class="container">
+    <main class="container" id="main-content">
         {{ block "main" . }}{{ end }}
     </main>
     

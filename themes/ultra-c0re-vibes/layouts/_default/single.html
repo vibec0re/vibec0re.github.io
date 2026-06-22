@@ -10,21 +10,21 @@
         <div class="post-meta">
             {{ if .Date }}
             <span class="post-date">
-                <span class="cyber-pink">◆</span> 
+                <span class="cyber-pink" aria-hidden="true">◆</span> 
                 {{ .Date.Format "2006-01-02" }}
             </span>
             {{ end }}
             
             {{ if .Params.author }}
             <span class="post-author">
-                <span class="cyber-cyan">◆</span> 
+                <span class="cyber-cyan" aria-hidden="true">◆</span> 
                 BY {{ .Params.author | upper }}
             </span>
             {{ end }}
             
             {{ if .ReadingTime }}
             <span class="reading-time">
-                <span class="cyber-purple">◆</span> 
+                <span class="cyber-purple" aria-hidden="true">◆</span> 
                 {{ .ReadingTime }} MIN READ
             </span>
             {{ end }}

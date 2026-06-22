@@ -63,14 +63,14 @@
                     <div class="post-preview-meta">
                         {{ if .Date }}
                         <span class="post-date">
-                            <span class="cyber-pink">◆</span> 
+                            <span class="cyber-pink" aria-hidden="true">◆</span> 
                             {{ .Date.Format "2006-01-02" }}
                         </span>
                         {{ end }}
                         
                         {{ if .ReadingTime }}
                         <span class="reading-time">
-                            <span class="cyber-cyan">◆</span> 
+                            <span class="cyber-cyan" aria-hidden="true">◆</span> 
                             {{ .ReadingTime }} MIN
                         </span>
                         {{ end }}
@@ -117,9 +117,9 @@
         <div class="manifesto-container">
             <div class="manifesto-header">
                 <h2 class="manifesto-title">
-                    <span class="cyber-pink">⚡</span>
+                    <span class="cyber-pink" aria-hidden="true">⚡</span>
                     THE VIBEC0RE MANIFESTO
-                    <span class="cyber-pink">⚡</span>
+                    <span class="cyber-pink" aria-hidden="true">⚡</span>
                 </h2>
             </div>
             <div class="manifesto-content">
