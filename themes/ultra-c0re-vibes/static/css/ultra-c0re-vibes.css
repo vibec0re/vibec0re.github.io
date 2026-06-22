@@ -981,4 +981,37 @@ select:focus-visible,
   border-radius: 2px;
 }
 
+/* ═══════════════════════════════════════════════════════════════════════════════════ */
+/* ♿ SKIP-TO-CONTENT LINK (WCAG 2.4.1) */
+/* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+/* Off-screen until focused, then snaps into view. Uses :focus (not :focus-visible)
+   so switch/voice users who trigger :focus also see it; transition:top 0s defeats the
+   global * { transition: all } so it appears instantly. */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 9999;
+  padding: 12px 20px;
+  background: var(--bg-void);
+  color: var(--cyber-cyan);
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border: 2px solid var(--cyber-cyan);
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  box-shadow: var(--glow-cyan);
+  outline: none;
+  transition: top 0s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 /* END OF ULTRA C0RE VIBES CSS - LET'S FUCKING GOOOOOO!!! 🚀💜⚡ */
