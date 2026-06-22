@@ -1,0 +1,83 @@
+{{ define "title" }}404 — SIGNAL LOST | {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<section class="error-404 card">
+    <h1 class="error-code">404</h1>
+    <p class="error-glitch">▓▒░ SIGNAL LOST ░▒▓</p>
+    <p class="error-message">
+        This node isn't in the construct. The page you followed has been
+        unplugged, never existed, or slipped into a different reality.
+    </p>
+    <div class="error-matrix">
+        ◆◇◆ TRACE FAILED — NO ROUTE TO HOST ◆◇◆<br>
+        ▲△▲ REALITY CHECK: THIS IS NOT THE PAGE YOU'RE LOOKING FOR ▲△▲
+    </div>
+    <div class="error-actions">
+        <a href="{{ "/" | relURL }}" class="btn">◆ RETURN TO HOME ◆</a>
+        <a href="{{ "/posts/" | relURL }}" class="btn secondary">◆ BROWSE TRANSMISSIONS ◆</a>
+    </div>
+</section>
+
+<style>
+.error-404 {
+    max-width: 720px;
+    margin: 60px auto;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.error-code {
+    font-size: clamp(4rem, 22vw, 9rem);
+    line-height: 1;
+    margin: 0 0 10px;
+    color: var(--cyber-pink);
+    text-shadow: var(--glow-pink), 0 0 60px var(--cyber-pink);
+    letter-spacing: 4px;
+    /* these decorations would overflow the giant number on mobile */
+}
+.error-code::before,
+.error-code::after { content: none; }
+
+.error-glitch {
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--cyber-cyan);
+    text-shadow: var(--glow-cyan);
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.error-message {
+    color: #ffffff;
+    font-size: 1.15em;
+    line-height: 1.7;
+    max-width: 540px;
+    margin: 0 auto 30px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 18px 22px;
+    border-radius: 8px;
+}
+
+.error-matrix {
+    font-family: 'Courier New', monospace;
+    font-size: 0.8em;
+    color: var(--matrix-green);
+    opacity: 0.85;
+    line-height: 1.8;
+    margin-bottom: 35px;
+    word-break: break-word;
+}
+
+.error-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+    .error-actions .btn { width: 100%; max-width: 300px; }
+}
+</style>
+{{ end }}
