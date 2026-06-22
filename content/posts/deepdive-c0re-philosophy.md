@@ -1,10 +1,10 @@
 ---
-title: "The C0re Philosophy: Exponentiel Vibes Explained"
+title: "The C0re Philosophy: Exponential Vibes Explained"
 date: 2025-07-30T01:15:00+02:00
 draft: false
 author: "The Wired Collective"
 description: "Deep exploration into the c0re of vibec0re - where exponentials meet minimalism"
-tags: ["vibec0re", "philosophy", "c0re", "exponentiels", "min-max", "productivity"]
+tags: ["vibec0re", "philosophy", "c0re", "exponentials", "min-max", "productivity"]
 categories: ["philosophy", "theory"]
 featured: true
 ---
@@ -19,9 +19,9 @@ Traditional tech philosophy says: "Best practices exist for a reason."
 
 C0re philosophy says: **"Best practices are yesterday's limitations."**
 
-## The Exponentiel Mindset
+## The Exponential Mindset
 
-### Linear vs Exponentiel
+### Linear vs Exponential
 
 **Linear thinking:**
 ```
@@ -30,7 +30,7 @@ Day 2: Write 100 lines
 Day 30: 3000 lines total
 ```
 
-**Exponentiel thinking (VIBEC0RE WAY):**
+**Exponential thinking (VIBEC0RE WAY):**
 ```
 Day 1: Write 10 lines that generate 100
 Day 2: Write 5 lines that modify those generators

@@ -1,10 +1,10 @@
 ---
 title: "VIBEC0RE"
-date: 2025-07-29
+date: 2026-06-22
 description: "We are the wired. We embrace the vibe. We are vibec0re."
 ---
 
-# VIBEC0RE MANIFESTO 💜⚡
+## VIBEC0RE MANIFESTO 💜⚡
 
 **WE ARE THE FUCKING FUTURE**
 

@@ -14,8 +14,6 @@ Ready to establish a **direct neural interface** with the Ultra C0re Vibes colle
 
 * [@dlsym@chaos.social](https://chaos.social/@dlsym)
 
-## Collaboration Opportunities
-
 ## Community Guidelines
 
 Before initiating contact, please review our **Digital Code of Conduct**:

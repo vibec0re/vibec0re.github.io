@@ -125,5 +125,3 @@ And that's all we fucking need.
 *Remember: Traditional development asks "How should we build this?" VIBEC0RE asks "What happens if we ship it RIGHT NOW?"*
 
 💜⚡🔥 **WELCOME TO VIBEC0RE** 🔥⚡💜
-
-`// TODO: Delete this TODO`

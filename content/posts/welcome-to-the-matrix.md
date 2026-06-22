@@ -62,6 +62,6 @@ The Matrix is calling, Neo. Will you answer?
 
 *Remember: There is no spoon. There is only the infinite potential of human creativity channeled through code.*
 
-**Next Transmission:** [Designing in the Digital Underground](/posts/digital-underground-design)
+**Next Transmission:** [Browse all transmissions →](/posts/)
 
 > *"The question isn't whether we're in a simulation. The question is: are we going to make it beautiful?"* - Anonymous Cyber-Architect
