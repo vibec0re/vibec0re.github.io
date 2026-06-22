@@ -68,7 +68,7 @@
             <!-- Post Summary -->
             <div class="post-card-content">
                 {{ if .Summary }}
-                    {{ .Summary }}
+                    <p>{{ .Summary | plainify | truncate 200 }}</p>
                 {{ else if .Description }}
                     <p>{{ .Description }}</p>
                 {{ else }}
