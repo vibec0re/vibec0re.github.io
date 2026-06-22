@@ -428,7 +428,8 @@
     
     .pagination a,
     .pagination span {
-        padding: 8px 12px;
+        /* keep tap height >= 44px on mobile (was 8px -> ~37px) (#20) */
+        padding: 12px 14px;
         font-size: 0.9em;
     }
 }
