@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Black rounded-rect background -->
+  <rect width="32" height="32" rx="5" ry="5" fill="#000000"/>
+
+  <!-- Matrix-green glow filter -->
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- ">_" terminal prompt as geometric paths (no font dependency) -->
+  <polyline points="5,10 10,16 5,22"
+            fill="none" stroke="#00ff41" stroke-width="2.4"
+            stroke-linecap="round" stroke-linejoin="round"
+            filter="url(#glow)"/>
+
+  <!-- "_" cursor block -->
+  <rect x="13" y="21" width="13" height="2.2" rx="0.5"
+        fill="#ff007f" filter="url(#glow)"/>
+
+  <!-- Faint cyan scanline accent -->
+  <line x1="1" y1="16" x2="31" y2="16"
+        stroke="#00ffff" stroke-width="0.3" stroke-opacity="0.18"/>
+</svg>
