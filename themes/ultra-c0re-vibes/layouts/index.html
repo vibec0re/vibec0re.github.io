@@ -1,5 +1,15 @@
 {{ define "title" }}{{ .Site.Title }} - {{ .Site.Params.description | default "Welcome to the Matrix" }}{{ end }}
 
+{{ define "structured-data" }}
+{{- $ld := dict
+    "@context"    "https://schema.org"
+    "@type"       "WebSite"
+    "name"        .Site.Title
+    "url"         .Site.BaseURL
+    "description" .Site.Params.description -}}
+<script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>
+{{ end }}
+
 {{ define "main" }}
 <div class="homepage">
     <!-- 🔥 HERO SECTION - MATRIX WELCOME 🔥 -->
