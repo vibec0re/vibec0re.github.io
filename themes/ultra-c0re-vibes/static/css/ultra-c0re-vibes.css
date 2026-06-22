@@ -17,7 +17,7 @@
   /* TONS MORE CYBER COLORS!! */
   --cyber-pink: #ff007f;
   --cyber-cyan: #00ffff;
-  --cyber-purple: #bf00ff;
+  --cyber-purple: #cc44ff; /* lightened from #bf00ff -> 5.84:1 on black, AA for text + black-on-purple buttons (#43) */
   --cyber-green: #00ff41;
   --cyber-yellow: #ffff00;
   --cyber-orange: #ff8c00;
