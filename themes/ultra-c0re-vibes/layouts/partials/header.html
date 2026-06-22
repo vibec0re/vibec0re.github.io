@@ -117,3 +117,19 @@ document.addEventListener('DOMContentLoaded', function() {
     border-bottom: 2px solid var(--cyber-pink);
 }
 </style>
+
+<!-- 🛡️ NO-JS FALLBACK (#17): the mobile menu starts max-height:0 and is only opened by the
+     hamburger's JS click handler — so with JavaScript disabled there's NO navigation on mobile.
+     When JS is off, show the full menu and hide the now-dead toggle. The JS path is untouched. -->
+<noscript>
+<style>
+@media (max-width: 768px) {
+    .nav-menu {
+        max-height: none;
+        overflow: visible;
+        transition: none;
+    }
+    .mobile-menu-toggle { display: none; }
+}
+</style>
+</noscript>
