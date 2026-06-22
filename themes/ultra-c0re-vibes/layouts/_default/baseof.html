@@ -20,7 +20,7 @@
     <link rel="icon" href="{{ "/favicon.svg" | relURL }}" sizes="any">
     
     <!-- 🔥 ULTRA VIBEC0RE OPEN GRAPH TAGS 🔥 -->
-    <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+    <meta property="og:type" content="{{ if and (eq .Kind "page") (eq .Section "posts") }}article{{ else }}website{{ end }}">
     <meta property="og:title" content="{{ .Title | default .Site.Title }}">
     <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="og:url" content="{{ .Permalink }}">
