@@ -52,7 +52,10 @@ document.addEventListener('DOMContentLoaded', function() {
     border: 2px solid var(--cyber-pink);
     color: var(--cyber-pink);
     font-size: 1.2em;
-    padding: 8px 12px;
+    /* guarantee a >=44px tap target — the only mobile nav entry point (#20) */
+    padding: 10px 14px;
+    min-width: 44px;
+    min-height: 44px;
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Courier New', monospace;
