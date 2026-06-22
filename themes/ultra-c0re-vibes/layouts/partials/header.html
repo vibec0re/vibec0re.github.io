@@ -7,7 +7,7 @@
         </a>
         
         <!-- Main Navigation Menu -->
-        <ul class="nav-menu">
+        <ul class="nav-menu" id="nav-menu">
             {{ range .Site.Menus.main }}
             <li class="nav-item">
                 <a href="{{ .URL }}" class="nav-link {{ if $.IsMenuCurrent "main" . }}active{{ end }}">
@@ -18,8 +18,11 @@
         </ul>
         
         <!-- Mobile Menu Toggle (if needed) -->
-        <button class="mobile-menu-toggle" id="mobile-menu-toggle">
-            <span class="cyber-hamburger">☰</span>
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="nav-menu">
+            <span class="cyber-hamburger" aria-hidden="true">☰</span>
         </button>
     </div>
 </nav>
@@ -34,6 +37,8 @@ document.addEventListener('DOMContentLoaded', function() {
         mobileToggle.addEventListener('click', function() {
             navMenu.classList.toggle('mobile-active');
             this.classList.toggle('active');
+            const expanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-expanded', String(!expanded));
         });
     }
 });

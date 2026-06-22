@@ -931,4 +931,51 @@ pre {
   }
 }
 
+/* ═══════════════════════════════════════════════════════════════════════════════════ */
+/* ♿ REDUCED MOTION — honor the user's prefers-reduced-motion (#24) */
+/* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+/* All the infinite blink/glitch/shake/pulse/float animations (and the * transition:all
+   rule) collapse to a single instantaneous frame when the user asks for reduced motion.
+   State changes (hover color/shadow/transform) still apply — just without the movement.
+   The JS matrix-rain canvas is gated separately in baseof.html. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════════════ */
+/* ♿ KEYBOARD FOCUS — visible cyber focus ring for keyboard nav (#26) */
+/* ═══════════════════════════════════════════════════════════════════════════════════ */
+
+/* Suppress the default ring ONLY because we immediately replace it with :focus-visible
+   below (never suppress without a replacement). :focus-visible fires on keyboard/
+   programmatic focus, not mouse clicks, so the mouse-driven hover aesthetic is untouched. */
+:focus {
+  outline: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+.btn:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--cyber-cyan);
+  outline-offset: 3px;
+  box-shadow:
+    0 0 0 1px var(--bg-void),
+    0 0 8px var(--cyber-cyan),
+    0 0 16px var(--cyber-cyan);
+  /* zero ONLY the outline's timing so the ring is instant despite * { transition: all };
+     every other transition (color/box-shadow/transform) keeps the 0.3s cyber feel. */
+  transition: outline 0s, outline-offset 0s;
+  border-radius: 2px;
+}
+
 /* END OF ULTRA C0RE VIBES CSS - LET'S FUCKING GOOOOOO!!! 🚀💜⚡ */
